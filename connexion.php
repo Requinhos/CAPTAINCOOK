@@ -7,7 +7,7 @@
 		$utilisateur = "root";
 
 		$mot_passe = "";
-
+  
 
 $cx_serv = @mysql_connect($serveur,$utilisateur,$mot_passe);
 
