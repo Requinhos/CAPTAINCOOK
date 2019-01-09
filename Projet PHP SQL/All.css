@@ -259,3 +259,51 @@ hr {
   font-size: 20px;
   padding: 16px 32px;
 }
+
+.btnmap1{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 880px;
+  margin-left: 420px;
+}
+
+.btnmap2{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 700px;
+  margin-left: 500px;
+}
+
+.btnmap3{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 340px;
+  margin-left: 680px;
+}
+
+.btnmap4{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 755px;
+  margin-left: 775px;
+}
+
+.btnmap5{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 620px;
+  margin-left: 1170px;
+}
+
+.btnmap6{
+  position : absolute;
+  background-color: red;
+  width: 1%;
+  margin-top: 840px;
+  margin-left: 1450px;
+}

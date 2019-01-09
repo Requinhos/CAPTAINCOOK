@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Captain'Cook</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="All.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Logo/favicon2.ico" />
+    <style>
+      #more {display: none;}
+    </style>
+  </head>
+
+    <body class="w3-white">
+
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+          <div class="container">
+            <h1>Connexion</h1>
+            <p class="p1">Veuillez remplir le formulaire pour vous connecter.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Entrer Votre Email" name="email" required>
+
+            <label for="psw"><b>Mot de passe</b></label>
+            <input type="password" placeholder="Entrer Votre MDP" name="psw" required>
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Se souvenir de moi
+            </label>
+
+            <p class="p1">Pour vous inscrire, cliquez içi : <a href="Inscription.html" style="color:dodgerblue">Inscription</a>.</p>
+
+            <div class="clearfix">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+              <button type="submit" class="signupbtn">Connexion</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+
+
+    <div class="w3-container w3-white" style="height:95px">
+      <a href="Accueil.html"><img src="Logo/Logo_entete2.png" style="height:100%"></a>
+      <input class="w3-input w3-margin-top w3-display-topmiddle inline1 w3-border-black" type="text" style="width:45%">
+      <a href="#" class="fa fa-facebook w3-display-topright" style="font-size:130%"></a>
+      <a href="#" class="fa fa-youtube w3-display-topright" style="font-size:130%"></a>
+      <a href="#" class="fa fa-instagram w3-display-topright" style="font-size:130%"></a>
+      <a href="#" class="fa fa-snapchat w3-display-topright" style="font-size:130%"></a>
+      <button onclick="document.getElementById('id01').style.display='block'" class="colb1" style="width:auto;">Connexion</button>
+
+</div>
+<div class="w3-bar navbar1">
+  <a href="Recettes.html" class="w3-bar-item w3-button w3-border" style="width:20%"><b>RECETTES</b></a>
+  <a href="Carte.html" class="w3-bar-item w3-button w3-border" style="width:20%"><b>CARTE</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-border" style="width:20%"><b>RECETTE AU HASARD</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-border" style="width:20%"><b>PUBLIER</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-border" style="width:20%"><b>A PROPOS</b></a>
+</div>
+<div class="w3-panel w3-border w3-round-large col2" style="width:18%">
+  <h4 class="text1 col2" style="height:20px"><b>CARTE DU MONDE<b></h4>
+</div>
+
+
+
+
+  <button onclick="document.getElementById('id02').style.display='block'" class="w3-button btnmap1"></button>
+
+  <div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id02').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Cap Horn</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/dessert.jpeg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+  <button onclick="document.getElementById('id03').style.display='block'" class="w3-button btnmap2"></button>
+
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id03').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Rio</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/plat.jpg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+  <button onclick="document.getElementById('id04').style.display='block'" class="w3-button btnmap3"></button>
+
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id04').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Plymouth</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/entrée.jpeg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+
+  <button onclick="document.getElementById('id05').style.display='block'" class="w3-button btnmap4"></button>
+
+  <div id="id05" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id05').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Le Cap</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/entrée.jpeg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+
+  <button onclick="document.getElementById('id06').style.display='block'" class="w3-button btnmap5"></button>
+
+  <div id="id06" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id06').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Batavia</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/entrée.jpeg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+
+  <button onclick="document.getElementById('id07').style.display='block'" class="w3-button btnmap6"></button>
+
+  <div id="id07" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container navbar1">
+        <span onclick="document.getElementById('id07').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Nouvelle-Zélande</h2>
+      </header>
+      <div class="w3-container">
+        <img src="Recettes/entrée.jpeg">
+      </div>
+      <footer class="w3-container navbar1">
+        <p>@Captain'Cook</p>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+
+<div class="w3-margin-bottom">
+  <img src="Carte/Map.png" style="width:100%" class="map">
+</div>
+
+
+  <div class="footer">
+  <p><h6><i class="i1">@Captain'Cook 2018</i></h6></p>
+</div>
+
+
+  </body>
+</html>
